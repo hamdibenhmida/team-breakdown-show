@@ -6,13 +6,22 @@
 <meta name="theme-color" content="#F4F9FD" />
 <title>The Team Breakdown — Ultimate Soft Skills Show</title>
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="style.css?v=2" />
 </head>
 <body>
 <div id="confetti" aria-hidden="true"></div>
 <div id="app" aria-live="polite"><div class="loading">LOADING THE SHOW…</div></div>
-<script src="config.js"></script>
-<script src="game-data.js"></script>
-<script type="module" src="app.js"></script>
+<script>
+// If a script fails to parse or run, show the reason instead of a permanent loading screen.
+window.addEventListener('error',function(e){
+  var el=document.querySelector('#app');
+  if(el&&el.querySelector('.loading')){
+    el.innerHTML='<div class="loading" style="color:#bb3453">THE SHOW COULD NOT START<br><span style="font-weight:400;font-size:13px">'+String(e.message||'Script error')+'</span><br><span style="font-weight:400;font-size:13px">Try a hard refresh (Ctrl+Shift+R).</span></div>';
+  }
+},true);
+</script>
+<script src="config.js?v=2"></script>
+<script src="game-data.js?v=2"></script>
+<script type="module" src="app.js?v=2"></script>
 </body>
 </html>
