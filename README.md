@@ -67,7 +67,8 @@ The timer is a guide: the host controls reveal and transition timing to accommod
 ## Voice recordings and media
 
 - Original generated, photorealistic imagery: character montage and corporate office scenes (not photographs of real people).
-- Original MP4 opening film assembled for this game.
+- Original MP4 opening film assembled for this game: a 54-second montage built from the character images, with on-screen captions and a music bed. It carries **no voiceover** — the presenter narrates it live. The script with per-shot timecodes is in `NARRATION_SCRIPT.md`.
+- Opening film music: *"Echoes of Time v2"* by **Kevin MacLeod** (incompetech.com), licensed under **CC BY 4.0** (https://creativecommons.org/licenses/by/4.0/). Keep this credit if you redistribute or modify the film.
 - Original English spoken MP3 dialogues created with **synthetic voice technology**, rather than recordings of actual actors. This is honest, repeatable and playable offline.
 - Generated applause sound effect; successful individual scores trigger confetti and applause.
 - Font design uses optional Google Fonts with system-font fallback.
