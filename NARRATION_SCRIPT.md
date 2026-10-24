@@ -23,7 +23,7 @@ Read the lines below over the music. The timecodes are where each shot appears, 
 
 ## Plain script (no table)
 
-Read straight through at a calm, unhurried pace — roughly 145 words per minute:
+Read straight through at a calm, unhurried pace — about 113 words per minute, which is slower than normal speech and leaves room to breathe:
 
 > Nine forty-five AM at NEXORA.
 >
